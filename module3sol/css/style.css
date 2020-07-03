@@ -1,0 +1,130 @@
+
+* {
+    font-family:Brushstroke, fantasy;
+	color: #000000;
+}
+
+body {
+    font-size: 16px;
+    color: #1a1a1a;
+    background-image: url("../images/background.jpg") ;
+  	background-color: #FFF0F5;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #000000;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+  background: url('https://img.icons8.com/color/96/000000/google-mobile.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 10px 0 10px;
+}
+
+#header-nav button {
+    margin-top: 40px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #AEB6BF;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 12px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+
+#nav-list {
+    background-color: #AEB6BF;
+    margin-top: 10px;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    font-size: 2em;
+    color: #282828;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #ffffff;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #ffffff;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#home-tiles p {
+  font-size: 1.75em;
+}
+
+#whatsapp-tile, #facebook-tile, #instagram-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(224, 255, 255, 0.8);
+    margin-bottom: 60px;
+    box-shadow: 0 0 50px #d6f1f1;
+    border:	1px solid white;
+}
+
+
+/** END HOME PAGE **/
